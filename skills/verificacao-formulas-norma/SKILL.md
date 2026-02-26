@@ -23,7 +23,7 @@ Siga este fluxo para auditar relatórios técnicos com fórmulas usando uma norm
    - sequência de cálculo.
 6. Recalcular resultados quando houver dados suficientes.
 7. Classificar divergências por severidade: Crítica, Alta, Média, Baixa.
-8. Registrar pendências como `Não verificável com os dados fornecidos` quando faltar informação.
+8. Registrar pendências com estado `Não verificável` quando faltar informação; detalhar na evidência os dados ausentes.
 9. Marcar ambiguidades normativas como `Interpretação incerta` sem inventar conteúdo.
 10. Entregar relatório final em Markdown com tabelas rastreáveis.
 
@@ -35,6 +35,8 @@ Para cada `F-xxx`, atribuir um estado:
 - **Não conforme**: existe desvio técnico (algébrico, semântico, dimensional, procedimental ou numérico).
 - **Não verificável**: dados insuficientes para concluir.
 - **Interpretação incerta**: norma ambígua para o caso específico.
+
+Usar exatamente estes rótulos de estado em toda a saída (resumo, matriz e consolidações), sem variações textuais.
 
 ## Modelo de saída obrigatório
 
